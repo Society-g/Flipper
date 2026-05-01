@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 $o = New-Object -ComObject WScript.Shell
-$discordInvite = "https://discord.gg/yh86k6uytf"
+$discordInvite = "https://disboard.org/server/join/1492604473011474637"
 start-process $discordInvite
 Start-Sleep -Seconds 5
 [System.Windows.Forms.SendKeys]::SendWait('{TAB}')
