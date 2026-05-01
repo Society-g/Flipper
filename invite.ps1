@@ -8,3 +8,5 @@ Start-Sleep -Seconds 5
 Start-Sleep -Seconds 1
 [System.Windows.Forms.SendKeys]::SendWait('%{F4}')
 [System.Windows.Forms.SendKeys]::SendWait('%{ENTER}')
+Start-Sleep -Seconds 1
+[System.Windows.Forms.SendKeys]::SendWait('%{F4}')
